@@ -1,0 +1,22 @@
+// Ce script permet d'afficher les éléments quand on scrolle
+document.addEventListener("DOMContentLoaded", () => {
+    const containers = document.querySelectorAll(".container");
+
+    const revealOnScroll = () => {
+        const triggerBottom = window.innerHeight / 5 * 4;
+
+        containers.forEach(container => {
+            const containerTop = container.getBoundingClientRect().top;
+
+            if(containerTop < triggerBottom) {
+                container.classList.add("visible");
+            } else {
+                container.classList.remove("visible");
+            }
+        });
+    };
+
+    // Lancer la fonction au chargement et au scroll
+    window.addEventListener("scroll", revealOnScroll);
+    revealOnScroll();
+});
