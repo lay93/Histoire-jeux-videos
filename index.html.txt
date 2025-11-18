@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musée du Jeu Vidéo - L'Histoire</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>L'Histoire des Consoles</h1>
+        <p>De 1972 à aujourd'hui</p>
+    </header>
+
+    <main class="timeline">
+        
+        <div class="container left">
+            <div class="content">
+                <h2>1972</h2>
+                <h3>Magnavox Odyssey</h3>
+                <p>La toute première console de jeux vidéo domestique. Elle fonctionnait sans son et utilisait des calques en plastique sur l'écran TV.</p>
+                <span class="badge">Gen 1</span>
+            </div>
+        </div>
+
+        <div class="container right">
+            <div class="content">
+                <h2>1977</h2>
+                <h3>Atari 2600</h3>
+                <p>La console qui a popularisé le concept de cartouches interchangeables. Des hits comme Space Invaders et Pac-Man ont fait son succès.</p>
+                <span class="badge">Gen 2</span>
+            </div>
+        </div>
+
+        <div class="container left">
+            <div class="content">
+                <h2>1983</h2>
+                <h3>Nintendo NES</h3>
+                <p>Après le krach du jeu vidéo, Nintendo sauve l'industrie avec la NES et Super Mario Bros.</p>
+                <span class="badge">Gen 3</span>
+            </div>
+        </div>
+
+        <div class="container right">
+            <div class="content">
+                <h2>1988</h2>
+                <h3>Sega Mega Drive</h3>
+                <p>"Sega c'est plus fort que toi". L'arrivée du 16-bits et de Sonic le hérisson pour concurrencer Mario.</p>
+                <span class="badge">Gen 4</span>
+            </div>
+        </div>
+
+        <div class="container left">
+            <div class="content">
+                <h2>1994</h2>
+                <h3>Sony PlayStation</h3>
+                <p>Sony entre dans la danse et change tout avec le CD-ROM et la 3D grand public.</p>
+                <span class="badge">Gen 5</span>
+            </div>
+        </div>
+
+        </main>
+
+    <footer>
+        <p>Créé avec passion pour les gamers.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
